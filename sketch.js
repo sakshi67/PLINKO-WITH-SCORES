@@ -63,6 +63,7 @@ function setup() {
 
 function draw() {
   background("black");
+    Engine.update(engine);
   textSize(35)
   text("Score : "+score,20,40);
   fill("red");
@@ -78,7 +79,7 @@ function draw() {
   text(" 200 ", 560, 550);
   text(" 200 ", 640, 550);
   text(" 200 ", 720, 550);
-  Engine.update(engine);
+
 
 
   ground.display();
