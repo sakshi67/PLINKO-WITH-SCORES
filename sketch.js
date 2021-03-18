@@ -63,10 +63,11 @@ function setup() {
 
 function draw() {
   background("black");
-  textSize(20)
-  text("Score : "+score,20,30);
-  fill("white");
-  textSize(35);
+  textSize(35)
+  text("Score : "+score,20,40);
+  fill("red");
+  
+  textSize(35)
   text(" 500 ", 5, 550);
   text(" 500 ", 80, 550);
   text(" 500 ", 160, 550);
